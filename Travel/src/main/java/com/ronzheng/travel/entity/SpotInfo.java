@@ -3,9 +3,6 @@ package com.ronzheng.travel.entity;
 import java.io.Serializable;
 
 public class SpotInfo implements Serializable{
-    /**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	private Integer id;
@@ -77,4 +74,15 @@ public class SpotInfo implements Serializable{
     public void setUpdateby(String updateby) {
         this.updateby = updateby == null ? null : updateby.trim();
     }
+
+//	@Override
+//	public String toString() {
+//		return "[id=" + id + ",spotName=" +spotName + ",spotIntroduce=" +spotIntroduce + ",createTime="
+//				+createTime + ", createby=" +createby + ", updateTime=" +updateTime + ", updateby=" +updateby + "]";
+//	}
+
+	@Override
+	public String toString() {
+		return id+","+spotName+","+spotIntroduce+","+createTime+","+createby+","+updateTime+","+updateby;
+	}
 }

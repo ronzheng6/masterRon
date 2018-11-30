@@ -29,12 +29,13 @@
     </root>
     <!--指定打印dao里面的sql  -->
  	<logger name="com.ronzheng.travel.dao" level="DEBUG" />
- 	<!--指定打印dao里面的sql  -->
- 	<logger name="com.ronzheng.travel.config" level="DEBUG" />
     <!-- logback为java中的包 -->
     <logger name="com.ronzheng.travel.controllerr"/>
     <!--logback.LogbackDemo：类的全路径 -->
     <logger name="com.ronzheng.travel.controllerr.*" level="WARN" additivity="false">
+        <appender-ref ref="console"/>
+    </logger>
+    <logger name="com.ronzheng.travel.*" level="WARN" additivity="false">
         <appender-ref ref="console"/>
     </logger>
 </configuration>

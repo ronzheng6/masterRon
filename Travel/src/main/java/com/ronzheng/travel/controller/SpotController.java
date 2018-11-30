@@ -13,7 +13,7 @@ import com.ronzheng.travel.service.SpotService;
 import com.ronzheng.travel.utils.RedisUtil;
 /**
  * 景点信息
- * @author luoZheng
+ * @author luozheng
  *
  */
 @RestController
@@ -34,6 +34,16 @@ public class SpotController {
 		String redis = (String) redisUtil.get("spotInfo");
 		if(redis!=""&& redis!=null) {
 			logger.info("从redis取值"+redis);
+			String[] info = redis.split(",");
+			SpotInfo spotInfo = new SpotInfo();
+			spotInfo.setId(Integer.parseInt(info[0]));
+			spotInfo.setSpotName(info[1]);
+			spotInfo.setSpotIntroduce(info[2]);
+			spotInfo.setCreateTime(info[3]);
+			spotInfo.setCreateby(info[4]);
+			spotInfo.setUpdateTime(info[5]);
+			spotInfo.setUpdateby(info[6]);
+			list.add(spotInfo);
 		}else {
 			logger.info("查询景点start");
 			list = spotService.findSpotAll();
