@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ronzheng.travel.dao.SpotInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.ronzheng.travel.entity.SpotInfo" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="spot_name" property="spotName" jdbcType="VARCHAR" />
+    <result column="spot_introduce" property="spotIntroduce" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="VARCHAR" />
+    <result column="createBy" property="createby" jdbcType="VARCHAR" />
+    <result column="update_time" property="updateTime" jdbcType="VARCHAR" />
+    <result column="updateBy" property="updateby" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, spot_name, spot_introduce, DATE_FORMAT(create_time,'%Y-%m-%d %H:%i:%S') create_time, createBy, DATE_FORMAT(update_time,'%Y-%m-%d %H:%i:%S') update_time, updateBy
+  </sql>
+  
+  <select id="findSpotAll" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from spotinfo
+  </select>
+  
+  
+ <!--  
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from spotinfo
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from spotinfo
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.ronzheng.travel.entity.SpotInfo" >
+    insert into spotinfo (id, spot_name, spot_introduce, 
+      create_time, createBy, update_time, 
+      updateBy)
+    values (#{id,jdbcType=INTEGER}, #{spotName,jdbcType=VARCHAR}, #{spotIntroduce,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{createby,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP}, 
+      #{updateby,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.ronzheng.travel.entity.SpotInfo" >
+    update spotinfo
+    set spot_name = #{spotName,jdbcType=VARCHAR},
+      spot_introduce = #{spotIntroduce,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      createBy = #{createby,jdbcType=VARCHAR},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      updateBy = #{updateby,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update> -->
+</mapper>

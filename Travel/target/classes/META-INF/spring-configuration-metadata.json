@@ -1,0 +1,171 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    },
+    {
+      "name": "",
+      "type": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties",
+      "sourceType": "com.ronzheng.travel.config.RedisConfig$DataJedisProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
